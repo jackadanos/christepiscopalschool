@@ -4,14 +4,15 @@
 
 <head>
     <title>Christ Episcopal School</title>
-    <!-- include /header.html -->
-    <link href="/Wow_Slider/engine1/style.css" rel="stylesheet" type="text/css" />
-
+    <!-- @include _header.html -->
+    <!-- @stylesheet style.css -->
+    <!-- @javascript wowslider.js -->
+    <!-- @javascript jquery.js -->
 </head>
 
-<body id="home">
+<body>
     <div class="container">
-        <!-- include /navbar.html -->
+        <!-- @include _navbar.html -->
 
         <div class="row">
             <div class="col-xs-12 col-sm-8 col-md-7 col-lg-6 col-lg-push-1">
@@ -19,15 +20,15 @@
                     <div class="ws_images">
                         <ul>
                             <li>
-                                <img alt="Center of Inqiry Opening" id="wows1_0" src="Wow_Slider/data1/images/coi.jpg" title="Center of Inqiry Opening" />
+                                <img alt="Center of Inqiry Opening" id="wows1_0" src="<!-- @path coi.jpg -->" title="Center of Inqiry Opening" />
                             </li>
 
                             <li>
-                                <img alt="First High School Grauating Class" id="wows1_1" src="Wow_Slider/data1/images/grad_class.jpg" title="First High School Grauating Class" />
+                                <img alt="First High School Grauating Class" id="wows1_1" src="<!-- @path grad_class.jpg -->" title="First High School Grauating Class" />
                             </li>
 
                             <li>
-                                <img alt="Give - Click to Donate" id="wows1_2" src="Wow_Slider/data1/images/donate.jpg" title="Give - Click to Donate" />
+                                <img alt="Give - Click to Donate" id="wows1_2" src="<!-- @path donate.jpg -->" title="Give - Click to Donate" />
                             </li>
                         </ul>
                     </div>
@@ -35,11 +36,11 @@
                     <div class="ws_bullets">
                         <div>
                             <a href="#" title="Center of Inqiry Opening">
-                                <img alt="Center of Inqiry Opening" src="Wow_Slider/data1/tooltips/coi.jpg" />1</a>
+                                <img alt="Center of Inqiry Opening" src="<!-- @path coi_tooltip.jpg -->" />1</a>
                             <a href="#" title="First High School Grauating Class">
-                                <img alt="First High School Grauating Class" src="Wow_Slider/data1/tooltips/grad_class.jpg" />2</a>
+                                <img alt="First High School Grauating Class" src="<!-- @path grad_class_tooltip -->" />2</a>
                             <a href="#" title="Give - Click to Donate">
-                                <img alt="Give - Click to Donate" src="Wow_Slider/data1/tooltips/donate.jpg" />3</a>
+                                <img alt="Give - Click to Donate" src="<!-- @path donate_tooltip.jpg -->" />3</a>
                         </div>
                     </div>
                     <span class="wsl">
