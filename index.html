@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Christ Episcopal School</title>
+    <!-- @include _header.html -->
+    <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css">
+</head>
+
+<body id="home">
+    <!-- @include _navbar.html -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-8 col-md-7 col-lg-6 col-lg-push-1">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="<!-- @path Dauphin-Island -->" alt="Dauphin">
+                            <div class="carousel-caption">
+                                Dauphin
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="<!-- @path Fr-Tom -->" alt="Tom">
+                            <div class="carousel-caption">
+                                Fr Tom
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+
+                <div class="col-sm-4 col-md-3 col-md-push-2 col-lg-3 col-lg-push-2">
+                    <a class="btn pull-right btn-info btn-lg btn-block editable-txt" id="n0">School News</a>
+                    <a class="btn pull-right btn-info btn-lg btn-block editable-txt" id="n1">School Calendar</a>
+                    <a class="btn pull-right btn-danger btn-lg btn-block editable-txt" id="n2">Apply Now!</a>
+                    <a class="btn pull-right btn-info btn-lg btn-block editable-txt" id="n3">Support Our School</a>
+                    <a class="btn pull-right btn-primary btn-lg btn-block editable-txt" id="n4">Like us on Facebook!</a>
+                </div>
+            </div>
+        </div>
+        <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <!-- @javascript bootstrap -->
+        <script src="https://code.jquery.com/jquery.js"></script>
+
+        <script>
+            $('.carousel').carousel()
+        </script>
+</body>
+
+</html>
